@@ -1,0 +1,134 @@
+/* shared styles */
+body{
+        font-family: "Work Sans", sans-serif;
+        font-optical-sizing: auto;
+}
+/* header section styles */
+.header-section{
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    max-width: 1600px;
+    padding: 216px 130px 166px 845px;
+    text-align: right;
+
+}
+.header-title{
+    color: #FFF;
+font-size: 65px;
+font-weight: 700;
+}
+.header-description{
+    color: #FFF;
+text-align: right;
+font-size: 16px;
+font-weight: 400;
+}
+.btn-primary{
+    color: #005FAC;
+    padding: 21px 20px 25px 26px;
+}
+/* failure section styles */
+.failure-section{
+    display: flex;
+    gap: 100px;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+.failure-title{
+    color: #151414;
+font-size: 40px;
+font-weight: 700;
+}
+.failure-description{
+    color: #444343;
+font-size: 16px;
+font-weight: 400;
+}
+.failure-details ul{
+    list-style: none;
+    color:#444343;
+font-size: 16px;
+font-weight: 400;
+}
+.failure-details ul li{
+    margin-top: 10px;
+}
+.failure-section{
+    background: #FFF;
+    margin: 200px;
+
+
+}
+/* my plan section styles */
+.my-plan>h3{
+    text-align: center;
+    color:  #151414;
+font-size: 40px;
+font-weight: 700;
+margin-bottom: 100px;
+
+}
+.plans{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+.skill-name{
+    color: #151414;
+font-size: 30px;
+font-weight: 700;
+}
+/* banner section styles */
+.banner-section{
+    border-radius: 8px;
+background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%);
+background-image: url('../images/gradient3.png'), url('../images/watch.png');
+max-width: 1140px;
+padding: 50px 317px 59px 64px;
+background-repeat: no-repeat;
+margin: 135px 230px;
+
+}
+.banner-title{
+    color: #FFF;
+font-size: 40px;
+font-weight: 700;
+}
+/* footer section styles */
+.footer-section{
+    display: flex;
+    padding: 130px 230px;
+    gap: 100px; 
+    max-width: 1600px;
+    background: #151414;
+}
+.footer-title{
+    color: #F8F8F8;
+font-family: "Work Sans";
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.footer-description{
+    color: #FFF;
+font-family: "Work Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.footer-column>form>h5{
+    color: #FFF;
+font-family: "Work Sans";
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.footer-column>form input{
+    padding: 21px 158px 22px 21px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
